@@ -1,0 +1,49 @@
+.subscribe-now-wrapper {
+
+  	background-color: $secondary_color;
+	// padding: 32px 15px;
+	margin-top: 55px;
+	margin-bottom: 12px;
+	
+  	h1 {
+
+		text-align: center;
+		font-size: 27px;
+		line-height: 32px;
+		font-family: $heading_font;
+		letter-spacing: -0.54px;
+		color: #fff;
+		margin-bottom: 0;
+	}
+
+  	p {
+		text-align: center;
+		font-size: 18px;
+		line-height: 42px;
+		font-family: $base_font;;
+		color: #fff;
+		margin-bottom: 5px;
+	}
+
+	.form-control {
+
+		::placeholder {
+
+			font-size: 15px;
+			line-height: 22px;
+			letter-spacing: -0.34px;
+			color: #000;
+			opacity: 0.3;
+		}
+	}
+
+	.input-group {
+
+		justify-content: center; 
+
+		button {
+			background-color: $red !important;
+			border-color: none !important;
+		}
+	}
+}

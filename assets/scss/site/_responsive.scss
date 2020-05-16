@@ -1,0 +1,447 @@
+/* Small devices (landscape phones, 576px and down ) */
+@media screen and ( max-width: 576px) {
+
+	.header-nav {
+		.header-site-logo {
+			span {
+				display: none !important;
+			}
+		}
+
+		.header-right-side {
+			i {
+				margin-right: 0;
+			}
+		}
+	}
+
+	.SumoSelect {
+		.optWrapper {
+			&.isFloating {
+				position: absolute !important;
+				top: 35px !important;
+				left: 0 !important;
+				bottom: auto !important;
+				right: auto !important;
+				width: 100% !important;
+				max-height: inherit !important;
+				
+			}
+		}
+	}
+
+	.header {
+		.header-popup-nav-wrapper {
+			.modal-search-dialog{
+				width: auto;
+			}
+			.modal-content {
+				.popup-nav {
+					.popup-search-wrapper {
+						.popup-search-input-group {
+							.search-enter-btn {
+								font-size: 14px;
+								line-height: 20px;
+								padding: 5px 10px;
+							}
+
+							.form-control {
+								padding-left: 25px;
+								font-size: 15px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	#eevorg_plugin_container  {
+		.wpEve-content {
+			p {
+				text-align: center;
+				font-size: 12px;
+				line-height: 20px;
+			}
+			.wpEve-nav {
+				ul {
+					li {
+						&:nth-child(5) {
+							display: flex;
+							flex-direction: column;
+							width: 100%;
+
+							input {
+								margin-bottom: 5px;
+							}
+						}
+						&:first-child {
+							width: 100%;
+						}
+					}
+				}
+			}
+		}
+
+		.wpEve-catField {
+			width: 100%;
+		}
+	}
+
+	.wpEve-dateField {
+		width: 100% !important;
+		margin-top: 0;
+		margin-left: 0;
+	}
+
+	.footer-area {
+		text-align: center;
+		.footer-search-wrapper {
+			margin-top: 30px;
+			text-align: center;
+		}
+	}
+
+	.subscription-box-one, .subscription-box-two {
+		.modal-dialog {
+			.modal-content {
+				padding: 80px 25px 100px 15px;
+
+				.close {
+					font-size: 36px;
+				}
+
+				h1 {
+					font-size: 36px;
+					line-height: 46px;
+				}
+
+				h2 {
+					font-size: 28px;
+					line-height: 32px;
+				}
+
+				.signup-wrapper {
+					a {
+						font-size: 22px;
+						line-height: 24px;
+						padding: 8px 35px;
+					}
+				}
+			}
+		}
+	}
+
+	article {
+
+		&.re-thumb-post {
+			display: block;
+
+			.post-thumbnail, .entry-header {
+				width: 100%;
+			}
+
+			.post-thumbnail {
+				img {
+					width: 100%;
+				}
+			}
+
+			.entry-header {
+				margin-left: 0;
+				margin-top: 15px;
+			}
+		}
+	}
+
+
+	.header {
+		.header-popup-nav-wrapper {
+			.close-popup {
+				top: 50px;
+			}
+			.modal-content {
+				.popup-nav {
+					margin-top: 25%;
+				}
+			}
+		}
+	}
+
+	.wrapper-directory-content {
+		.bk-directory-left {
+			.bk-directory-content {
+				.bk-sponsor-content {
+
+					display: flex;
+					flex-wrap: wrap;
+					margin-bottom: 25px;
+
+					.bk-sponsor-right {
+
+						width: 100%;
+						padding-left: 0;
+						margin-top: 10px;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* Medium devices (tablets, 767px and down ) */
+@media screen and ( max-width: 768px) {
+
+	.sticky-sidebar-widget, .sticky_ad_class {
+	    position: static;	    
+	}
+
+	.header {
+		
+		.header-popup-nav-wrapper {
+			
+			.modal-content {
+				
+				.popup-nav {
+					
+					.popup-search-wrapper {
+						
+						.popup-search-input-group {	
+
+							.form-control {
+
+								font-size: 16px;
+							}
+						}
+					} 
+				}
+			}
+		}	
+	}
+
+	.header-nav {
+		.header-right-side {
+			.button_two {
+				display: none;
+			}
+		}
+	}
+
+	#eevorg_plugin_container  {
+		.wpEve-content {
+			.wpEve-nav {
+				ul {
+					li {
+						&:last-child {
+							input {
+								&[type="button"] {
+									margin-top: 5px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.wpEve-dateField {
+		width: 80px;
+		margin-top: 0;
+		margin-left: 5px;
+	}
+	.wpEve-catField {
+		width: 80%;
+	}
+
+	.footer-area, .footer-search-wrapper {
+		text-align: center !important;
+
+		.footer-logo-wrapper {
+			text-align: center;
+		}
+
+		.footer-search-wrapper {
+			margin-top: 15px;
+		}
+	}
+
+	article {
+		&.horizental-post {
+
+			.post-thumb {
+				width: 100%;
+			}
+
+			.post-meta {
+				width: 100%;
+				margin-left: 0;
+
+				.post-category {
+					margin-top: 15px;
+				}
+			}
+		}
+	}
+
+	.individual-directory-wrapper {
+		.wdp-listing-form {
+			.wdp-filter {
+				.bk-indi-form {
+					display: flex;
+					justify-content: center;
+					input{
+						margin: 5px 0;
+
+						&.wdp-address-search {
+							width: 100% !important;
+						}
+
+						&[name="keyword"] {
+							width: 100% !important;
+						}
+
+						&.wedding_name {
+							width: 100%;
+						}
+
+						&[type="submit"] {
+							width: 100%;
+						}
+					}
+
+					.SumoSelect {
+						width: 100%;
+						margin: 5px 0;
+
+						.search-txt {
+							width: 100%;
+							border-radius: inherit;
+							border: none !important;
+							margin: 0 !important;
+						}
+					}
+					.sumo_wedding_venue {
+						width: 100%;
+						margin: 5px 0;
+					}
+				}
+			}
+		}
+	}
+
+	.wrapper-directory-content {
+		.container {
+			display: flex;
+			flex-direction: column;
+		}
+	}
+}
+
+/* Large devices (desktops, 992px and down ) */
+@media screen and ( max-width: 992px) {
+
+
+	.p-r-70 {
+		padding-right: 0;
+	}
+
+	.header-nav {
+		.header-site-logo {
+			span {
+				display: block;
+				border-left: 0;
+				padding-left: 0;
+				margin-left: 0;
+			}
+		}
+	}
+
+	article {
+		&.latest-stories {
+
+			display: block;
+
+			.post-thumb, .post-meta {
+				width: 100%;
+			}
+
+			.post-meta {
+				margin-left: 0;
+			}
+		}
+	}
+
+	.custom-sidebar {
+		.es-event-wrapper {
+			.es-event-btn-wrapper {
+				display: block;
+				.es-event-btn {
+					width: 100%;
+					margin-right: 0;
+					margin-bottom: 10px;
+				}
+			}
+		}
+	}
+
+	.individual-directory-wrapper {
+		.wdp-listing-form {
+			.wdp-filter {
+				.bk-indi-form {
+					input{
+						margin: 5px 0;
+
+						&.wdp-address-search {
+							width: 33%;
+						}
+
+						&[name="keyword"] {
+							width: 33%;
+						}
+
+						&.wedding_name {
+							width: 48%;
+						}
+					}
+
+					.sumo_wedding_venue {
+						width: 48%;
+						margin: 5px 0;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+/* Extra large devices (large desktops, 1200px and down) */
+@media screen and ( max-width: 1200px) {
+	.custom-sidebar {
+		margin-left: 0;
+	}
+
+	.individual-directory-wrapper {
+		.wdp-listing-form {
+			.wdp-filter {
+				.bk-indi-form {
+					input{
+						&.wdp-address-search {
+							width: auto;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+/* Custom width */
+@media screen and ( max-width: 600px) {
+	.header {
+		.sticky-header {
+			top: 0 !important;
+		}
+	}
+}

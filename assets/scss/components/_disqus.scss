@@ -1,0 +1,17 @@
+.discus-comments-widget {
+	&.open {
+		height: 100%;
+	    width: 500px;
+	    position: fixed;
+	    z-index: 222222;
+	    top: 0;
+	    background: #fff;
+	    color: #000;
+	    overflow-x: hidden;
+	    -webkit-transition: .5s;
+	    transition: .5s;
+	    padding: 20px;
+	    overflow-y: auto;
+	    box-shadow: 2px 0 4px 1px #707070;	
+	}
+}

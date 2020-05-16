@@ -1,0 +1,67 @@
+{
+  "name": "everstrap",
+  "version": "1.0.0",
+  "description": "WordPress Theme framework",
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org:webpublisherprobd/everstrap.git"
+  },
+  "keywords": [
+    "wordpress",
+    "theme",
+    "framework",
+    "bootstrap",
+    "everstrap"
+  ],
+  "author": "Sultan",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://bitbucket.org:webpublisherprobd/everstrap/issues"
+  },
+  "homepage": "https://webpublisherpro.com",
+  "scripts": {
+    "git:update-hooks": "rm -r .git/hooks && mkdir -p .git/hooks && node ./node_modules/husky/husky.js install"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.1.0",
+    "grunt-checktextdomain": "^1.0.1",
+    "grunt-contrib-compress": "^1.5.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "~3.0.0",
+    "grunt-contrib-jshint": "~2.0.0",
+    "grunt-contrib-uglify": "~4.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-phpcs": "^0.4.0",
+    "grunt-postcss": "^0.9.0",
+    "grunt-rtlcss": "~2.0.1",
+    "grunt-sass": "~3.0.2",
+    "grunt-stylelint": "~0.10.1",
+    "grunt-wp-assets": "^0.2.6",
+    "grunt-wp-i18n": "^1.0.3",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.0.7",
+    "node-sass": "^4.12.0",
+    "stylelint": "~9.10.1",
+    "stylelint-config-wordpress": "^16.0.0",
+    "susy": "2.2.14"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.1.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "ie >= 8",
+    "edge >= 15",
+    "ie_mob >= 10",
+    "ff >= 45",
+    "chrome >= 45",
+    "safari >= 7",
+    "opera >= 23",
+    "ios >= 7",
+    "android >= 4",
+    "bb >= 10"
+  ]
+}

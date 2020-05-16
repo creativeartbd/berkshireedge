@@ -1,0 +1,444 @@
+.sticky-sidebar-widget {
+    
+    position: fixed;
+    top: 110px;
+    max-width: 300px;
+    z-index: 999;
+    background-color: #fff;
+}
+
+
+.eevorg-widget-event-container {       
+
+    h2 {
+        text-transform: uppercase;
+        padding-bottom: 10px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid $link_color;
+        line-height: 35px;
+        font-weight: 500;
+    }
+
+    .eevorg-widget-event-wrapper {
+        
+        display: flex;
+        position: relative;
+        width: 100%;
+        margin-bottom: 24px;
+
+        .event-widget-thumb {
+            width: 27%
+        }
+
+        .event-widget-description {
+            
+            width: calc( 73% - 15px );
+            margin-left: 15px;
+
+            a {
+                font-size: 14px;
+                line-height: 20px;
+                text-transform: capitalize;
+                color: #000; 
+                font-weight: 400;
+            }
+
+            p {
+                font-size: 12px;
+                line-height: 18px;
+                font-weight: bold;
+                letter-spacing: 1.2px;
+                text-transform: uppercase;
+                margin-bottom: 0;
+                font-family: $base_font;
+            }
+        }
+    }
+
+    .event-buttons {
+        .button_two {
+            width: 144px;
+            @include mq( false, md ) {
+                width: 136px;
+            }
+            @include mq( false, sm ) {
+                width: 95px;
+            }
+            @include mq( false, xs ) {
+                width: 144px;
+            }
+            height: 40px;
+            @include mq( false, sm ) {
+                height: 33px;
+            }
+            @include mq( false, xs ) {
+                height: 40px;
+            }
+            font-size: 14px;
+            @include mq( false, sm ) {
+                font-size: 12px;
+            }
+            @include mq( false, xs ) {
+                font-size: 14px;
+            }
+            line-height: 23px;
+            @include mq( false, sm ) {
+                line-height: 16px;
+            }
+            @include mq( false, xs ) {
+                line-height: 23px;
+            }
+            padding: 10px 15px;
+            @include mq( false, sm ) {
+                padding: 10px;
+            }
+            @include mq( false, xs ) {
+                padding: 10px 15px;
+            }
+
+            &:hover {
+                color: $white;
+            }
+        }
+    }
+}
+
+
+#eevorg_plugin_container {
+    a {
+        &:hover {
+            color: $link_color !important;
+        }
+    }
+    .wpEve-content {
+        .wpEve-headerImg {
+
+        }
+        .wpEve-nav {
+            background: $header_popup;
+            padding: 10px;
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+
+                li {
+                    color: $white;
+                    font-family: $base_font;
+                    font-size: 16px;
+                    margin-right: 10px;
+                    border: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    &:first-child {
+                        background: none;
+                    }
+
+                    .wpEve-dateField {
+                        text-align: center;height: 36px;
+                        font-size: 16px;
+                        font-weight: 400;
+                        width: 200px !important;
+                    }
+
+                    .wpEve-catField {
+                        width: 240px;
+                        font-size: 16px;
+                        font-weight: 400;
+                    }
+
+                    a{
+                        color: $white;
+
+                        &:hover {
+                            color: $secondary_color;
+                        }
+                    }
+
+                    input {
+                        &[type="button"] {
+                            width: 80px;
+                            background: $red;
+                            border: none;
+                            color: #fff;
+                            font-weight: 700;
+                            margin-left: 10px;
+                        }
+                    }
+
+                    select {
+                        &:not(:first-child) {
+                            margin-left: 10px;
+                        }
+                        option {
+                            font-family: $base_font;
+                        }
+                    }
+
+                    .wpEve-dateField2 {
+                        width: 140px;
+                    }
+
+                    &:last-child {
+                        width: 100%;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+
+        .wpEve-breadcrumb-Btn {
+            a {
+                font-family: $heading_font !important;
+            }
+        }
+
+        .wpEve-breadcrumb {
+            #eevorg_breadcrum {
+                li {
+                    font-family: $base_font;
+                    a {
+                        font-family: $base_font;
+                        font-size: 12px;
+                    }
+                }
+            }
+            .wpEve-breadcrumb-Btn {
+                a {
+                    color: $secondary_color;
+                    &:hover {
+                        color: $link_color;
+                    }
+                }
+            }
+        }
+        .wpEve-topBlock {
+            background-color: #fff;
+            position: relative;
+            margin: 0;
+            padding: 0;
+
+            h1 {
+                font-size: 25px;
+                line-height: 35px;
+                font-family: $heading_font;
+                color: #000;
+                text-transform: uppercase;
+                margin-bottom: 31px;
+                width: 100%;
+                display: block;
+            }
+        }
+
+        .wpEve-fullBlock {
+            border: none;
+            .wpEve-Left {
+                .wpEve-eventHold {
+                    padding: 0;
+                    padding-right: 10px;
+                    .wpEve-bigHed {
+                        color: $black;
+                        font-family: $heading_font;
+                        font-size: 25px;
+                        line-height: 35px;
+                        text-transform: uppercase;
+                        font-weight: 500;
+                        padding: 0;
+                        border-bottom: 1px solid $link_color;
+                        margin-bottom: 15px;
+                    }
+
+                    .wpEve-eventBox {
+                        border: none;
+                        margin-bottom: 10px;
+                        .wpEve-eventText {
+                            h2 {
+                                font-family: $heading_font;
+                                font-size: 25px;
+                                line-height: 35px;
+                                letter-spacing: -.5px;
+                                text-transform: inherit;
+                                font-weight: 400;
+                                a {
+                                    color: $black;
+                                    font-family: $heading_font;
+                                }
+                            }
+                            h3 {
+                                font-size: 12px;
+                                line-height: 18px;
+                                text-transform: uppercase;
+                                letter-spacing: 1.2px;
+                                font-weight: 700;
+                            }
+                            h4 {
+                                font-family: $base_font;
+                                font-weight: 700;
+                                font-size: 14px;
+                                line-height: 20px;
+                                letter-spacing: 1.4px;
+                                color: #000;
+                                text-transform: uppercase;
+                                display: inline-block;
+                                width: 100%;
+                                padding-bottom: 0;
+                                font-style: italic;
+                            }
+                            p {
+                                font-size: 18px;
+                                line-height: 25px;
+                                font-family: $base_font;
+                                color: #000;
+                                a {
+                                    font-family: $base_font;
+                                    color: $link_color;
+                                }
+                            }
+                        }
+                    }
+                }
+                .wpEve-loadHold {
+                    ul {
+                        li {
+                            a {
+                                color: $secondary_color;
+                                background: $white;
+                                &:hover {
+                                    color: #fff;
+                                }
+                            }
+                            &.active {
+                                a {
+                                    background: $secondary_color;
+                                    color: $white;
+                                }
+                            }
+                        }
+                    }
+                }
+                .wpEve-eventDetailsBox {
+                    border-bottom: none;
+                    h3 {
+                        text-transform: uppercase;
+                        letter-spacing: 1.2px;
+                        font-weight: 700;
+                    }
+                    h1 {
+                        padding-bottom: 0;
+                    }
+                    .wpEve-details-address{
+                        h4 {
+                            font-size: 18px;
+                            line-height: 26px;
+                            letter-spacing: 1.8px;
+                        }
+                    }
+                    h5 {
+                        color: #000;
+                        font-family: $base_font;
+                        font-size: 14px;
+                        line-height: 20px;
+                        font-weight: 700;
+                    }
+                    .wpEve-eventDetailsBolck {
+                        .wpEve-eventLeft {
+                            p {
+                                font-family: $base_font;
+                            }
+                        }
+                        .wpEve-eventRight {
+                            h2 {
+                                a {
+                                    font-family: $heading_font;
+                                    font-weight: 400;
+                                    letter-spacing: 1.2px;
+                                }
+                            }
+                            .wpEve-eventTickets {
+                                p {
+                                    font-family: $base_font;
+                                }
+                                .wpEve-buy {
+                                    background-color: $red;
+                                    font-family: $base_font;
+                                    font-weight: 700;
+                                    &:hover {
+                                        color: $white;
+                                    }
+                                }
+                            }
+                            & > p {
+                                a {
+                                    font-family: $heading_font;
+                                    letter-spacing: 1.2px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .wpEve-Right {
+                border-left-color: $link_color;
+                h2 {
+                    color: $secondary_color;
+                    font-family: $heading_font;
+                }
+
+                .wpEve-list {
+                    ul {
+                        li {
+                            h2 {
+                                font-family: $heading_font;
+                                font-size: 25px;
+                                line-height: 35px;
+                                letter-spacing: -.5px;
+                                text-transform: inherit;
+                                font-weight: 400;
+                                a {
+                                    color: $black;
+                                    font-family: $heading_font;
+                                }
+                            }
+                            h3 {
+                                font-size: 12px;
+                                line-height: 18px;
+                                text-transform: uppercase;
+                                letter-spacing: 1.2px;
+                                font-weight: 700;
+                            }
+                            h4 {
+                                font-family: $base_font;
+                                font-weight: 700;
+                                font-size: 14px;
+                                line-height: 20px;
+                                letter-spacing: 1.4px;
+                                color: #000;
+                                text-transform: uppercase;
+                                display: inline-block;
+                                width: 100%;
+                                padding-bottom: 0;
+                                font-style: italic;
+                            }
+                            p {
+                                font-size: 18px;
+                                line-height: 25px;
+                                font-family: $base_font;
+                                color: #000;
+                                a {
+                                    font-family: $base_font;
+                                    color: $link_color;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

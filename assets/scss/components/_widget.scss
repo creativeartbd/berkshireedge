@@ -1,0 +1,107 @@
+.widget_ecp_widget {
+	h2 {
+		text-transform: uppercase;
+		border-bottom: 1px solid $link_color;
+		padding-bottom: 7px;
+		margin-bottom: 23px;
+	}
+}
+
+.subscribe-now-container {
+
+	background-color: $secondary_color;
+	padding: 27px 13px;
+	color: #fff;
+	margin-top: 15px;	 
+	text-align: center;
+	margin-bottom: 25px;
+
+	.mc4wp-response { 
+	
+		margin-top: 15px;
+
+		p {
+		    color: #fff;
+		    line-height: inherit;
+		    text-align: left;
+		}
+	}
+
+	form {
+		margin: 0;
+	}
+
+	h2 {
+		text-align: center;
+		font-size: 24px;
+		line-height: 28px;
+		letter-spacing: -0.48px;
+		margin: 0;
+	}
+
+	p {
+		text-align: center;
+		font-size: 16px;
+		line-height: 37px;
+		font-family: $base_font;
+		margin-bottom: 5px;
+	}
+
+	input {
+		margin-bottom: 8px;
+		border: 0;
+		border-radius: 0;
+		padding: 10px;
+	}
+
+	button {
+		display: block;
+		width: 100%;
+		background-color: #CB3C38 !important;
+		color: #fff !important;
+		text-align: center;
+		font-weight: bold;
+		font-size: 17px;
+		line-height: 29px;
+		font-family: $base_font;
+		text-transform: uppercase;
+		border: 0;
+		padding: 10px 0;
+
+		&:hover, &:focus, &:active {
+			color: #fff;
+		}
+	}
+
+	.input-group {
+        
+        display: inline !important;
+
+		input[type="email"] {
+			font-size: 15px;
+			line-height: 22px;
+			font-weight: 600;
+		}
+
+        input, button {
+            display: inline-block !important;
+        }
+
+        button {    	    
+			width: auto !important;
+			padding: 6px 25px !important;
+			margin-top: -6px;
+        }
+    }  
+
+}
+
+.home {
+	.subscribe-now-container {
+		h2 {
+			font-size: 27px;
+			line-height: 32px;
+			letter-spacing: -0.54px;
+		}
+	}
+}

@@ -1,0 +1,26 @@
+.author-wrapper {
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 35px;
+
+	.author-thumb {
+		width: 20%;
+	}
+
+	.author-description {
+		width: calc( 80% - 15px );
+		margin-left: 15px;
+
+		.button_two {
+			margin-top: 15px;
+			padding: 5px 15px;
+		}
+	}
+
+	a {
+		&:hover {
+			color: #fff;
+		}
+	}
+	
+}

@@ -1,0 +1,39 @@
+.re-slider {
+	margin-top: 30px;
+	margin-bottom: 45px;
+
+	.owl-item {
+		&:not(.active) {
+			.thumb-caption {
+				display: none;
+			}
+		}
+	}
+}
+
+.owl-prev {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    margin-left: -20px;
+    display: block !important;
+    border:0px solid black;
+}
+
+.owl-next {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: -25px;
+    display: block !important;
+    border:0px solid black;
+}
+
+.owl-prev, .owl-next {
+	i {
+		transform : scale(1,2); 
+		color: $link_color;
+	}
+}

@@ -1,0 +1,12 @@
+.pagination {
+	li {
+		&.page-item {
+			&.active {
+				 .page-link {
+				 		background-color: $secondary_color;
+				 		border-color: $secondary_color;
+				 }
+			}
+		}
+	}
+}

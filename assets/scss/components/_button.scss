@@ -1,0 +1,139 @@
+.media_kit {
+	
+	font-size: 14px;
+	line-height: 29px;
+	background-color: $red;
+	cursor: pointer;
+	display: inline-block;
+	color: #fff;
+	text-transform: uppercase;
+    border: 0;
+    padding: 5px 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+    &:hover, &:active, &:focus {
+    	color: #fff;
+    }
+}
+
+.button_one {
+
+	font-size: 14px;
+	line-height: 29px;
+	background-color: $red;
+	cursor: pointer;
+	display: inline-block;
+	color: #fff;
+	text-transform: uppercase;
+    border: 0;
+    padding: 5px 30px;
+    font-weight: bold;
+
+    &:hover, &:active, &:focus {
+    	color: #fff;
+    }
+}
+
+.gform_wrapper {
+	.gform_footer {
+		&[type=submit] {
+			font-size: 17px;
+			line-height: 29px;
+			font-weight: bold;
+			background-color: $secondary_color;
+			text-align: center;
+			vertical-align: middle;
+			color: #fff;
+			border: 0;		
+			cursor: pointer;
+			display: inline-block;
+			text-transform: uppercase;
+			padding: 10px 15px;
+
+			&:hover {
+				background-color: #74B2FF;
+			}
+		}	 
+	}
+}
+
+.button_two {
+	font-size: 17px;
+	line-height: 29px;
+	font-weight: bold;
+	background-color: $secondary_color;
+	text-align: center;
+	vertical-align: middle;
+	color: #fff;
+	border: 0;		
+	cursor: pointer;
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 10px 15px;
+
+	&:hover {
+		background-color: #74B2FF;
+	}
+}
+
+.button_three {
+	font-size: 27px;
+	line-height: 46px;
+	background-color: $red;
+	cursor: pointer;
+	display: inline-block;
+}
+
+
+.btn-secondary, .btn-primary {
+	background-color: $secondary_color;
+	border-color: $secondary_color;
+	&:hover, &:focus, &:active {
+		background-color: $secondary_color;
+		border-color: $secondary_color;
+	}
+}
+
+.subscribe-now {
+	text-align: center;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 29px;
+	font-family: $base_font;
+	color: #fff;
+	text-transform: uppercase;
+	border: 0;
+	background-color: #902926;
+	padding: 0 20px;
+	height: 39px;
+	display: inline-block;
+	cursor: pointer;
+	margin-left: 15px;
+	border-radius: 0;
+	transition: 0.3s;
+	&:hover {
+		background-color: $header_popup
+	}
+}
+
+.subscribe-input {
+	border-radius: 0;
+	font-size: 15px;
+	line-height: 22px;
+	font-family: $base_font;
+	width: auto !important;
+}
+
+.load-more-btn {
+	margin-bottom: 22px;
+}
+
+button {
+	&:disabled {
+		opacity: 0.5;
+	}
+	&:focus {
+		outline: 0;
+	}
+}

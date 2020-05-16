@@ -1,0 +1,116 @@
+.complete{
+    display:none;
+}
+
+.more {
+    background: #689dde;
+    color: white;
+    font-size: 20px;
+    padding: 0 5px;
+    cursor: pointer; 
+    margin-left: 10px;
+}
+
+.sticky_ad_class {
+    position: fixed;
+    top: 80px;
+    max-width: 300px;
+    margin-top: 25px;
+    z-index: 999;
+}
+
+.home-bottom-sidebar {
+    aside {
+        &:last-child {
+            position: sticky;
+            top: 100px;
+        }
+    }
+}
+
+.p-r-70 {
+	padding-right: 70px;
+}
+
+.es-row {
+  display: flex;
+}
+
+.wp-caption {
+    .wp-caption-text {
+        margin: 0 !important;
+    }
+} 
+
+/* Create two equal columns that sits next to each other */
+.es-column {
+  flex: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.sponsored {
+    width: 185px;
+    height: 28px;
+    position: absolute;
+    background: $header_popup;
+    padding-left: 30px;
+    color: #fff;
+    top: 0;
+    left: -10px;
+    font-size: 11px;
+    line-height: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    padding-top: 6px;
+    z-index: 2;
+}
+
+.sponsored:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 10px solid white;
+    border-top: 12px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+
+.sponsored:before {
+    content: "";
+    position: absolute;
+    right: -19px;
+    bottom: -1px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid $header_popup;
+    border-top: 16px solid transparent;
+    border-bottom: 14px solid transparent;
+} 
+
+.author-load-more-post-btn-wrapper {
+	a {
+		&:hover {
+			color: #fff;
+		}
+	}
+}
+
+
+.more-in-real-estate {
+    width: 100%;
+    margin-top: 25px;
+
+    h2 {
+        border-bottom: 1px solid $link_color;
+        padding-bottom: 10px;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+    }
+}
+
+.category-archive-ad {
+    margin-bottom: 31px;
+}

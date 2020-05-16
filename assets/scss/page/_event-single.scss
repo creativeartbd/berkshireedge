@@ -1,0 +1,199 @@
+.bk-event-single-wrapper {
+    width: 100%;
+    font-family: $meriweather;
+    .bk-event-right-top{
+        padding: 20px;
+        border-bottom: solid 1px #ababab;
+        .bk-event-details-box {
+            h1 {
+                font-size: 40px;
+                line-height: normal;
+                font-weight: 400;
+                color: #242021;
+                padding-bottom: 15px;
+                line-height: 43px;
+            }
+            h3 {
+                font-size: 19px;
+                line-height: normal;
+                font-weight: 400;
+                color: #242021;
+                padding-bottom: 3px;
+            }
+        }
+
+        .bk-event-details-address {
+            margin-bottom: 15px;
+            h4 {
+                font-size: 16px;
+                line-height: normal;
+                font-weight: 400;
+                color: #242021;
+                padding-bottom: 2px;
+            }
+        }
+
+        .bk-event-featured-img {
+            margin-bottom: 20px;
+            img { 
+            }
+        }
+
+        .bik-event-content-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            .bk-event-content {
+                width: calc(100% - 250px);
+                padding: 10px;
+                p {
+                    font-size: 14px;
+                    color: #59595b;
+                    font-weight: 400;
+                    margin: 0px;
+                    padding-bottom: 0px;
+                    padding-bottom: 12px;
+                    line-height: 18px;
+                }
+            }
+
+            .bk-event-direction {
+                width: 250px;
+                padding-left: 15px;
+                h2 {
+                    a {
+                        color: #25b7f0;
+                        font-size: 17px;
+                        line-height: normal;
+                        text-transform: uppercase;
+                        padding-bottom: 2px;
+                        font-weight: 700;
+                    }
+                }
+                p {
+                    margin: 0;
+                    a {
+                        color: #b83531;
+                        font-size: 16px;
+                        font-family: 'Open Sans', sans-serif;
+                    }
+                }
+                .bk-event-ticket {
+                    background-color: #e7e5cc;
+                    margin-bottom: 10px;
+                    padding: 20px;
+                    h3 {
+                        font-size: 13px;
+                        color: #251f21;
+                        line-height: normal;
+                        font-weight: 400;
+                        padding-bottom: 3px;
+                    }
+                    p {
+                        font-size: 13px;
+                        color: #59595b;
+                        font-weight: 400;
+                        margin: 0px;
+                        padding-bottom: 12px;
+                        line-height: 18px;
+                    }
+
+                    a{
+                        background-color: #bd1f2e;
+                        border-top-style: none;
+                        border-right-style: none;
+                        border-bottom-style: none;
+                        border-left-style: none;
+                        color: #FFF;
+                        padding-top: 4px;
+                        padding-right: 10px;
+                        padding-bottom: 4px;
+                        padding-left: 10px;
+                        cursor: pointer;
+                        width: 100%;
+                        text-align: center;
+                        display: block;
+                        text-decoration: none; 
+                        font-size: 16px; 
+                    }
+                }
+            }
+        }
+    }
+
+    .bk-event-right-bottom {
+        padding: 20px;
+        .bk-event-container {
+            h1 {
+                font-size: 32px;
+                line-height: normal;
+                font-weight: 400;
+                color: #9ec937;
+                padding-bottom: 15px;
+                text-transform: none;
+                display: block !important;
+            }
+            .bk-upcoming-event-item {
+                margin-bottom: 12px;
+                border-bottom-width: 1px;
+                border-bottom-style: solid;
+                border-bottom-color: #aeadb2;
+                padding-bottom: 12px;
+                display: flex;
+                flex-wrap: wrap;
+                .bk-upcoming-event-img {
+                    width: 180px;
+                    a{
+                        width: 100%;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+
+                .bk-upcoming-event-text {
+                    padding: 0 20px;
+                    width: calc(100% - 180px);
+                    h2 {
+                        font-size: 18px;
+                        color: #000;
+                        line-height: normal;
+                        font-weight: 700;
+                        margin: 0px;
+                        padding-top: 0px;
+                        padding-right: 0px;
+                        padding-bottom: 2px;
+                        padding-left: 0px;
+                        a {
+
+                        }
+                    }
+                    h3 {
+                        font-size: 14px;
+                        color: #000;
+                        line-height: normal;
+                        font-weight: 400;
+                        margin: 0px;
+                        padding-bottom: 2px;
+                    }
+                    h4 {
+                        font-size: 14px;
+                        color: #59595b;
+                        line-height: normal;
+                        font-weight: 400;
+                        margin: 0px;
+                        padding-bottom: 18px;
+                    }
+                    p {
+                        font-size: 13px;
+                        color: #59595b;
+                        font-weight: 400;
+                        margin: 0px;
+                        padding-bottom: 0px;
+                        padding-bottom: 0px;
+                        line-height: 18px;
+                    }
+                }
+            }
+        }
+    }
+}

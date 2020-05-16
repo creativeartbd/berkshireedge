@@ -1,0 +1,100 @@
+.subscription-box-one, .subscription-box-two {
+
+	margin-top: 20px;
+
+	.modal-dialog {
+
+    	width: 753px;
+    	max-width: 100%;
+
+    	.modal-content {
+    		background-color: $link_color;	
+    		padding: 118px 96px 85px 96px;    		
+    		border-radius: 0;
+    		border: 0;
+
+    		.close {
+	    		font-size: 50px;
+			    color: #fff;
+			    position: absolute;
+			    top: 25px;
+			    right: 25px;
+			    opacity: 1;
+			    font-weight: normal;
+			    text-shadow: none;
+	    	}
+
+	    	h1 {
+	    		text-align: center;
+	    		font-weight: normal;;
+	    		font-size: 65px;
+	    		line-height: 70px;    		
+				letter-spacing: -1.3px;
+				color: #fff;
+				padding-bottom: 30px;			
+				border-bottom: 2px solid #4c77ab;
+	    	}
+
+	    	h2 {
+	    		text-align: center;
+	    		font-size: 36px;
+	    		line-height: 38px;
+	    		font-family: $base_font;
+	    		color: #fff;
+	    		padding: 20px 0;
+	    	}
+
+	    	ul {
+
+	    		padding: 0;
+	    		margin: 0;
+
+	    		li {
+	    			list-style: none;
+	    			text-align: center;
+	    			font-size: 21px;
+	    			line-height: 20px;
+	    			font-family: $base_font;
+	    			color: #fff;
+	    			margin-bottom: 20px;
+	    		}
+	    	}
+
+	    	.signup-wrapper {
+
+	    		margin: 20px auto 0 auto;
+
+	    		a {
+
+	    			text-align: center;
+		    		font-weight: bold;
+		    		font-size: 27px;
+		    		line-height: 46px;
+		    		font-family: $base_font;
+					color: #fff;
+					text-transform: uppercase;
+					border: none;
+					padding:13px 50px;			
+					background-color: $red;
+					
+
+					&:hove, &:focus {
+						color: #fff;
+					}	
+	    		}
+	    	}	    	
+    	}    	
+	}
+}
+
+.subscription-box-two {
+	.modal-dialog {
+		.modal-content {
+			h2 {
+				color: #3F628D;
+				font-size: 32px;
+				line-height: 36px;
+			}
+		}
+	}
+}

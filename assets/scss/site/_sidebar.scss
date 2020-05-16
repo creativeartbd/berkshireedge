@@ -1,0 +1,151 @@
+.custom-sidebar {	
+	
+	flex: inherit;
+	border-left: 1px solid $link_color;
+	padding-left: 26px;
+    margin-left: 35px;
+	width: 345px;
+	
+	.widget-title {
+		font-size: 25px;
+		line-height: 35px;
+		font-family: $heading_font;
+		text-transform: uppercase;
+		font-weight: 500;
+		padding-bottom: 5px;
+		border-bottom: 1px solid $link_color;
+	}
+	
+	.bottom-sidebar {
+		margin-bottom: 30px;
+	}
+
+	.es-event-wrapper {
+		margin-bottom: 20px;
+		.es-event-item {
+			display: flex;
+			margin-bottom: 24px;
+
+			.es-event-thumb {
+				width: auto;
+			}
+
+			.es-event-container {
+				width: calc( 100% - 16px);
+				margin-left: 16px;
+				display: flex;
+				flex-direction: column;
+
+				p {
+					font-family:  $base_font;
+					margin-bottom: 0;
+				}
+
+				.esp-event-title {
+					p {
+						margin-top: -5px;
+						margin-bottom: 5px;
+						line-height: 20px;
+						a {
+							font-size: 14px;
+							color: #000;
+							transition: 0.3s;
+							&:hover {
+								color: $link_color;
+							}
+						}
+					}
+				}
+
+				.esp-event-date {
+					p {
+						font-size: 12px;
+						line-height: 18px;
+						font-weight: bold;
+						text-transform: uppercase;
+
+					}
+				}
+			}
+		}
+
+		.es-event-btn-wrapper {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			.es-event-btn {
+				font-size: 14px;
+				line-height: 29px;
+				background-color: $secondary_color;
+				cursor: pointer;
+				display: inline-block;
+				font-family: $base_font;
+				color: #fff;
+				padding: 10px;
+				width: calc( 50% - 10px);
+				margin-right: 10px;
+				text-align: center;
+				text-transform: uppercase;
+			}
+		}
+	}
+}
+
+.bk_featured_article {
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+	.bk_featured_item {
+		display: flex;
+		flex-wrap: wrap;
+		margin-bottom: 10px;
+
+		&:first-child {
+			margin-top: 10px;
+		}
+
+		.bk-featured-article-img {
+			width: 80px;
+		}
+
+		.bk-featured-article-content {
+			width: calc(100% - 80px);
+			display: flex;
+			flex-direction: column;
+			padding-left: 15px;
+			a {
+				line-height: 1;
+				display: flex;
+				justify-content: flex-start;
+				align-items: flex-start;
+			}
+			.bk-featured-article-category {
+				font-size: 12px;
+				line-height: 18px;
+				letter-spacing: 1.2px;
+				font-family: $base_font;
+				color: #000;
+				font-weight: 700;
+				text-transform: uppercase;
+			}
+
+
+			p {
+				font-size: 12px;
+				line-height: 18px;
+				font-family: $base_font;
+				color: #000;
+				margin-bottom: 0;
+
+				&.offered_by {
+					font-style: italic;
+					font-weight: 700;
+				}
+			}
+
+		}
+	}
+
+
+}
